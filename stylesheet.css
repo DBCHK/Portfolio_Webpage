@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    body {}
+}
+
+/* Header */
+
+header {
+    height: 75px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.Header_Left {
+    width: 50%;
+    color: rgb(255, 255, 255);
+}
+
+
+.Header_Left .Header_Title {
+    padding-left: 100px;
+}
+
+.Header_Right {
+    width: 479px;
+    margin-right: 84px;
+}
+
+.Header_Right .Header_List {
+    padding-right: 10px;
+
+}
+
+.Header_Right a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Section 1 */
+
+.Section1 {
+    height: 600px;
+    color: white;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Section 1 Left */
+
+.Section1 .First_Left_Section {
+    width: 50%;
+    font-size: 30px;
+}
+
+.Texts {
+    padding: 200px 117px;
+    font-size: 85%;
+}
+
+.Texts .First_Left_Section_Text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+.First_Left_Section_Text b {
+    color: rgb(254, 106, 106);
+    text-shadow: 0px 0px 3px rgb(252, 54, 54);
+}
+
+.Texts .First_Left_Section_Text1 {
+    font-size: 80%;
+}
+
+.Texts #element {
+    color: rgb(255, 255, 255);
+}
+
+#element>i {
+    color: rgb(254, 106, 106);
+}
+
+.Section1_Buttons {
+    position: relative;
+    bottom: 19px;
+}
+
+.Texts button {
+    background-color: rgb(13, 26, 60);
+    width: 160px;
+    height: 40px;
+    margin: 20px 0px;
+    border-color: white;
+    border-radius: 14px;
+    transition: 0.3s ease;
+}
+
+.Texts button:hover {
+    box-shadow: 0px 0px 10px white;
+    width: 170px;
+    font-weight: 900;
+    height: 50px;
+    transition: 0.3s ease;
+}
+
+.Texts .button2 {
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    margin: 20px 0px;
+    border-color: white;
+    border-radius: 14px;
+
+}
+
+.Texts .GitButton {
+    position: relative;
+    height: 60px;
+    top: 22px;
+    transition: 0.3s ease;
+}
+
+.Texts .LinkedinButton {
+    position: relative;
+    height: 43px;
+    top: 14px;
+    right: 7px;
+    transition: 0.3s ease;
+}
+
+.Texts a {
+    color: white;
+    text-decoration: none;
+    font-size: 110%;
+
+}
+
+/* Section 1 Right*/
+
+.Section1 .First_Right_Section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.First_Right_Section>img {
+    height: 701px;
+    margin: 1px -72px;
+    margin-right: 66px;
+    filter: drop-shadow(0px 0px 10px rgba(152, 152, 152, 0.6));
+    transition: 0.3s ease;
+}
+
+img:hover {
+    filter: drop-shadow(0px 0px 10px rgba(207, 207, 207, 0.6));
+    height: 730px;
+    transition: 0.3s ease;
+
+}
+
+/*Section 2 */
+
+.Section2 {
+    color: white;
+    height: 700px;
+    display: flex;
+    margin: 0px 160px;
+
+}
+
+/*Section 2 Left*/
+
+.Educations {
+    width: 70%;
+}
+
+.Education_Text1 {
+    font-size: 70%;
+}
+
+.Education_Text2 {
+    font-size: 30px;
+    bottom: 20px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+#Course {
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#Course_Details {
+    margin-bottom: 43px;
+}
+
+
+
+#Education_Left_Section {
+    margin: 30px 60px;
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(73, 73, 73);
+    transition: transform 0.6s ease;
+}
+
+#Education_Left_Section:hover {
+    transform: scale(1.1001);
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 30px rgb(73, 73, 73);
+    transition: 0.6s ease-in-out;
+}
+
+
+/*Section 2 Right*/
+
+.Education_Right_Section {
+    width: 30%;
+    margin: 41px 50px;
+    text-align: center;
+}
+
+#ed_year {
+    margin: 105px 30px;
+    color: rgb(166, 166, 166);
+    font-size: 70%;
+    transition: 0.3s ease-in-out;
+}
+
+#ed_year:hover {
+    transform: scale(1.2);
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+/*Section 3rd */
+
+.Section3 {
+    height: 600px;
+    color: white;
+    margin: 00px 160px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Projects_Left {
+    width: 30%;
+    text-align: center;
+}
+
+.Projects_Right {
+    width: 70%;
+}
+
+.project1 {
+    background-color: rgb(35, 35, 35);
+    margin: 30px 32px;
+    padding: 25px 20px;
+    height: 33px;
+    border-radius: 30px;
+    text-align: left;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.Project_Decs {
+    margin-top: 22px;
+    height: 70px;
+}
+
+.project1:hover {
+    transform: scale(1.2);
+    height: 200px;
+    transition: ease-out 0.6s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.Third_Section_Title {
+    padding-top: 100px;
+
+}
+
+/* Section 4 */
+
+.Section4 {
+    height: 550px;
+    color: white;
+    margin: 00px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1150px) {
+    .Section4 {
+        margin: 0px 40px;
+    }
+}
+
+
+
+.Skillstimeline {
+    border: 1px;
+    height: 1px;
+    background-color: rgb(238, 220, 255);
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    transition: ease-in-out 0.6s;
+}
+
+.Skillstimeline .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Skills_Title1 {
+    font-size: 70%;
+}
+
+.Skills_Title2 {
+    font-size: 30px;
+    bottom: 20px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.Skill_1 {
+    position: relative;
+    top: 95px;
+    width: 32px;
+    left: -1px;
+    text-align: left;
+}
+
+.Skill_Decs {
+    position: relative;
+    font-size: 80%;
+    top: 131px;
+    width: 110px;
+    left: 27px;
+    margin: 0px -58px;
+    color: rgb(237, 237, 237);
+    transition: 0.6s ease-in-out;
+    height: 0px;
+}
+
+i {
+    color: rgb(255, 145, 145);
+    font-size: 78%;
+}
+
+.Skill_Decs:hover {
+    font-size: 100%;
+    transition: 0.6s ease-in-out;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo h3 {
+    max-width: 411px;
+    height: auto;
+}
+
+.footer-info {
+    font-size: 14px;
+}
+
+.footer-info a {
+    color: #fff;
+    text-decoration: none;
+}

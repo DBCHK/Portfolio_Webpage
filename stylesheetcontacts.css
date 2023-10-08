@@ -1,0 +1,37 @@
+
+
+body {
+    background-color: rgb(33, 29, 63);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: 90px auto;
+}
+
+.leftContainer {
+    flex: 50%;
+  max-width: 50%;
+  padding: 3rem;
+  background-color: #40566e;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.PhoneContainer1 {
+    position: relative;
+    top: 30px;
+} 
+
+.col-md-6 {
+    border-left: 1px solid #000;
+    padding-top: 3rem;
+    height: 600px;
+}
